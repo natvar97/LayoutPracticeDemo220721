@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutPracticeDemo220721">
-        <activity
-            android:name=".shoppingcart.ShoppingCartActivity"
+        <activity android:name=".instagram.InstagramLayoutActivity"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
             <intent-filter>
@@ -18,6 +17,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".shoppingcart.ShoppingCartActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
         <activity android:name=".equalizer.EqualizerActivity">
 
@@ -29,11 +38,13 @@
             <!-- </intent-filter> -->
         </activity>
         <activity android:name=".profilesettings.ProfileSettingsActivity">
-            <!--            <intent-filter>-->
-            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
-            <!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name=".ariangrande.MainActivity">
             <intent-filter>

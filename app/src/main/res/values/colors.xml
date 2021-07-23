@@ -20,4 +20,7 @@
     <color name="button_cart_background_color">#a225b3</color>
     <color name="color_stock">#1fa127</color>
 
+    <color name="light_blue">#59b4ff</color>
+    <color name="background_dark_grey">#454545</color>
+
 </resources>
