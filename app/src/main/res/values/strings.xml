@@ -3,6 +3,8 @@
 
     <string name="text_description">Arian Grande-Butera is an American singer, songwriter, and actress. Born in Boca Raton, Florida, Grande began her career in the 2010 Broadway musical 13 and rose to prominence for her role as Cat Valentine in the Nickelodeon television series Victorious, and in its spin-off, Sam and Cat… </string>
     <string name="text_date">25 Jan 1993</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
