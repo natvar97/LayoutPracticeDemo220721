@@ -16,6 +16,8 @@
     <color name="seek_bar_background">#ababab</color>
     <color name="seek_bar_progress">#ffb600</color>
     <color name="seek_bar_secondary_progress">#3399CC</color>
-
+    <color name="background_grey">#edebeb</color>
+    <color name="button_cart_background_color">#a225b3</color>
+    <color name="color_stock">#1fa127</color>
 
 </resources>
