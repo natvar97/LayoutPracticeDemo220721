@@ -114,7 +114,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_above="@id/bottom_nav"
         android:layout_below="@id/selection_bar"
         android:layout_alignParentStart="true"
@@ -124,14 +124,20 @@
         android:layout_marginTop="8dp">
 
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginHorizontal="4dp"
                 app:cardCornerRadius="6dp">
 
@@ -157,11 +163,22 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_food_categories"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardview"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
 
             <LinearLayout
+                android:id="@+id/layout_today"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/rv_food_categories"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginHorizontal="12dp"
                 android:layout_marginTop="8dp"
                 android:orientation="vertical">
@@ -182,8 +199,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/layout_family_meals"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/layout_today"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginHorizontal="12dp"
                 android:layout_marginTop="8dp"
                 android:orientation="vertical">
@@ -214,9 +237,15 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_all_dishes"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_family_meals"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp" />
 
-        </LinearLayout>
+        </RelativeLayout>
     </ScrollView>
 
     <LinearLayout
@@ -229,6 +258,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_gravity="center_vertical"
+        android:background="@color/white"
         android:baselineAligned="false"
         android:gravity="center"
         android:orientation="horizontal"
