@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginVertical="8dp"
+    android:paddingHorizontal="16dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dish_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxWidth="200dp"
+        android:maxLines="2"
+        android:text="Deal 1- 2x Medium Traditional"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dish_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dish_title"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxWidth="100dp"
+        android:maxLines="1"
+        android:text="A$22.00"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_dish_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pizza8" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginVertical="8dp"
+        android:background="@color/background_grey" />
+
+</RelativeLayout>
