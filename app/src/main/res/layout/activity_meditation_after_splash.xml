@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_splash"
+    tools:context=".meditationapp.MeditationSplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_meditation_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:transitionName="transition_logo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/meditation_logo_2"
+            app:tint="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_meditation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_meditation_logo"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_meditation_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_meditation"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Do Meditation. Stay focused.\nLive a healthy life."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_meditation_text"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_background_meditation"
+            android:text="Login With Email"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_login"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_do_not_have_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Don't have an account?"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="SignUp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

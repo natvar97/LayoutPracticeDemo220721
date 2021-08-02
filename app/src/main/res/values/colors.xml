@@ -23,4 +23,12 @@
     <color name="light_blue">#59b4ff</color>
     <color name="background_dark_grey">#454545</color>
 
+    <color name="colorPrimary">#5d998b</color>
+    <color name="colorPrimaryDark">#32695c</color>
+    <color name="colorPrimaryLight">#7b9e96</color>
+
+    <color name="colorSecondary">#cf5334</color>
+    <color name="colorSecondaryDark">#d12d04</color>
+    <color name="colorSecondaryLight">#f08c73</color>
+    <color name="background_whole_dark_purple">#00383b</color>
 </resources>

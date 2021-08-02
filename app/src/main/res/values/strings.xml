@@ -5,6 +5,10 @@
     <string name="text_date">25 Jan 1993</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_meditation_home">MeditationHomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Playlist</string>
+    <string name="title_notifications">Account</string>
 
 
 </resources>

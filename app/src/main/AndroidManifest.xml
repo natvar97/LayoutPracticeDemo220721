@@ -9,7 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutPracticeDemo220721">
-        <activity android:name=".ubereats.DishDetailActivity"
+        <activity
+            android:name=".meditationapp.MeditationHomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_meditation_home"/>
+        <activity
+            android:name=".meditationapp.MeditationSignUpActivity"
+            android:exported="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".meditationapp.MeditationLoginActivity"
+            android:exported="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".meditationapp.MeditationAfterSplashActivity"
+            android:exported="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".meditationapp.MeditationSplashActivity"
+            android:exported="true"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
             <intent-filter>
@@ -19,14 +40,28 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ubereats.DishDetailActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
             android:name=".ubereats.UberEatsMainActivity"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".homepageinsta.InstaHomePageActivity"
